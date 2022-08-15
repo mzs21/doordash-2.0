@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0;
+  }
+
+  /* img {
+    @apply bg-center bg-no-repeat bg-cover mt-28 h-screen w-screen z-0;
+  } */
+
+  nav {
+    @apply bg-red-700 flex items-center justify-between h-28 fixed top-0 font-semibold w-screen mr-2 z-50;
+  }
+
+  /* input {
+    @apply mb-10 w-64 h-auto py-2 rounded-lg flex justify-center text-center focus:outline-none;
+  } */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .container {
+    @apply grid place-content-center  bg-[url('./assets/RestaurantFood.jpg')] bg-cover bg-center bg-no-repeat h-screen w-screen;
+  }
+
+  /* Navbar */
+
+  .auths {
+    @apply flex items-center justify-between space-x-4 mr-8;
+  }
+
+  .signUp {
+    @apply text-black bg-white px-4 py-2 rounded-full;
+  }
+
+  /* IntroText */
+
+  .intro-text {
+    @apply font-sans font-black text-2xl text-white text-center relative  bg-red-700 rounded-lg  px-4 py-2 mx-2;
+  }
+
+  /* Search Box */
+  .search-box {
+    @apply font-sans font-black text-2xl text-white  text-center relative rounded-lg px-4 py-2 mx-2 mt-10;
+  }
 }
