@@ -2,27 +2,27 @@
 
 [**DoorDash**](https://www.doordash.com/) is a YC startup based in San Francisco, CA, USA.
 
-This website is a partial clone & redesign solely for the purpose of **Front-End Specialization Test** by [**Slingshotahead**](https://slingshotahead.com/)  
+This website is a **_partial clone_** and **_redesign_** solely for the purpose of **Front-End Specialization Test** by [**Slingshotahead**](https://slingshotahead.com/)
 
+* Only the landing page has been **_partially clone_** and **_redesigned_** 
 
 # Tech Stack
 
-* Language: **TypeScript**
+- Language: **TypeScript**
 
-* Library: **React.js**
+- Library: **React.js**
 
-* CSS Framework: **Tailwind CSS**
-
+- CSS Framework: **Tailwind CSS**
 
 # Image Source
 
 Picture by **Tim Toomey** - [**SOURCE**](https://unsplash.com/photos/STqHLqMne3k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-# Getting Started with Create React App
+# Getting Started with this repository
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Before reading the below section please note that you need to either download this repository through **Github Desktop 
+Before reading the below section please note that first you need to either download this repository through **Github Desktop App** or **Clone** this repository via terminal (These two are recommended options).
 
 ## Available Scripts
 

@@ -97,235 +97,309 @@ const Footer = () => {
           <div>
             <h2 className="font-bold lg:mt-10 mb-4 text-lg">Top Cities</h2>
             <ul className="flex flex-col text-center space-y-2 text-base">
-              <a
-                href="https://www.doordash.com/food-delivery/new-york-city-ny-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                New York City
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/los-angeles-ca-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Los Angeles
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/toronto-on-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Toronto
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/chicago-il-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Chicago
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/houston-tx-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Houston
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/brooklyn-ny-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Brooklyn
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/san-diego-ca-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                San Diego
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/las-vegas-nv-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Las Vegas
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/san-francisco-ca-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                San Francisco
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/seattle-wa-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Seattle
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/atlanta-ga-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Atlanta
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/queens-ny-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Queens
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/vancouver-bc-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Vancouver, BC
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/miami-fl-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Miami
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/san-antonio-tx-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                San Antonio
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/phoenix-az-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Phoenix
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/san-antonio-tx-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                San Antonio
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/phoenix-az-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Phoenix
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/denver-co-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Denver
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/austin-tx-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Austin
-              </a>
-              <a
-                href="https://www.doordash.com/food-delivery/washington-dc-dc-restaurants/"
-                className="hover:italic hover:font-semibold"
-              >
-                Washington, DC
-              </a>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/new-york-city-ny-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  New York City
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/los-angeles-ca-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Los Angeles
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/toronto-on-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Toronto
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/chicago-il-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Chicago
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/houston-tx-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Houston
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/brooklyn-ny-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Brooklyn
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/san-diego-ca-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  San Diego
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/las-vegas-nv-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Las Vegas
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/san-francisco-ca-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  San Francisco
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/seattle-wa-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Seattle
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/atlanta-ga-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Atlanta
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/queens-ny-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Queens
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/vancouver-bc-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Vancouver, BC
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/miami-fl-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Miami
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/san-antonio-tx-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  San Antonio
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/phoenix-az-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Phoenix
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/san-antonio-tx-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  San Antonio
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/phoenix-az-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Phoenix
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/denver-co-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Denver
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/austin-tx-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Austin
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/food-delivery/washington-dc-dc-restaurants/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Washington, DC
+                </a>
+              </li>
             </ul>
           </div>
 
           <div>
             <h2 className="font-bold mb-4 text-lg">Top Cuisines Near You</h2>
             <ul className="flex flex-col text-center space-y-2 text-base">
-              <a
-                href="https://www.doordash.com/cuisine/pizza-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Pizza Near Me
-              </a>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/pizza-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Pizza Near Me
+                </a>
+              </li>
 
-              <a
-                href="https://www.doordash.com/cuisine/chinese-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Chinese Food Near Me
-              </a>
-              <a
-                href="https://www.doordash.com//cuisine/sushi-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Sushi Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/cafe-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Cafe Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/mexican-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Mexican Food Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/thai-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Thai Food Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/lunch-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Lunch Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/seafood-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Seafood Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/indian-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Indian Food Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/dessert-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Dessert Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/burger-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Burgers Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/asian-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Asian Food Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/italian-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Italian Food Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/vegan-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Vegan Food Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/sandwich-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Sandwiches Near Me
-              </a>
-              <a
-                href="https://www.doordash.com/cuisine/restaurants-near-me/"
-                className="hover:italic hover:font-semibold"
-              >
-                Restaurants Near Me
-              </a>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/chinese-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Chinese Food Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com//cuisine/sushi-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Sushi Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/cafe-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Cafe Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/mexican-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Mexican Food Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/thai-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Thai Food Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/lunch-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Lunch Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/seafood-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Seafood Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/indian-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Indian Food Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/dessert-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Dessert Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/burger-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Burgers Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/asian-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Asian Food Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/italian-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Italian Food Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/vegan-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Vegan Food Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/sandwich-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Sandwiches Near Me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/cuisine/restaurants-near-me/"
+                  className="hover:italic hover:font-semibold"
+                >
+                  Restaurants Near Me
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -333,138 +407,178 @@ const Footer = () => {
             <div>
               <h2 className="font-bold mb-4 text-lg">Get to Know Us</h2>
               <ul className="flex flex-col text-center space-y-2 text-base">
-                <a
-                  href="https://www.doordash.com/about/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  About Us
-                </a>
-                <a
-                  href="https://www.doordash.com/careers/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Careers
-                </a>
-                <a
-                  href="https://ir.doordash.com/overview/default.aspx"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Investors
-                </a>
-                <a
-                  href="https://doordash.news/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Company Blog
-                </a>
-                <a
-                  href="https://doordash.engineering/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Engineering Blog
-                </a>
-                <a
-                  href="https://get.doordash.com/blog?internal-referrer=footer_v2"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Merchant Blog
-                </a>
-                <a
-                  href="https://www.doordash.com/gift-cards/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Gift Cards
-                </a>
-                <a
-                  href="https://www.doordash.com/promos/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Promotions
-                </a>
-                <a
-                  href="https://dasher.doordash.com"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Dasher Central
-                </a>
-                <a
-                  href="https://stories.doordash.com/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  DoorDash Stories
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/doordash"
-                  className="hover:italic hover:font-semibold"
-                >
-                  LinkedIn
-                </a>
-                <a
-                  href="https://www.glassdoor.com/Reviews/DoorDash-Reviews-E813073.htm"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Glassdoor
-                </a>
-                <a
-                  href="https://www.doordash.com/accessibility/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Accessibility
-                </a>
+                <li>
+                  <a
+                    href="https://www.doordash.com/about/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.doordash.com/careers/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://ir.doordash.com/overview/default.aspx"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Investors
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://doordash.news/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Company Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://doordash.engineering/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Engineering Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://get.doordash.com/blog?internal-referrer=footer_v2"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Merchant Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.doordash.com/gift-cards/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Gift Cards
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.doordash.com/promos/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Promotions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://dasher.doordash.com"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Dasher Central
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://stories.doordash.com/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    DoorDash Stories
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/doordash"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.glassdoor.com/Reviews/DoorDash-Reviews-E813073.htm"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Glassdoor
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.doordash.com/accessibility/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Accessibility
+                  </a>
+                </li>
               </ul>
             </div>
 
             <div>
               <h2 className="font-bold mb-4">Let Us Help You</h2>
               <ul className="flex flex-col text-center space-y-2">
-                <a
-                  href="https://www.doordash.com/consumer/edit_profile/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Account Details
-                </a>
-                <a
-                  href="https://www.doordash.com/orders/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Order History
-                </a>
-                <a
-                  href="https://help.doordash.com/s/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Help
-                </a>
+                <li>
+                  <a
+                    href="https://www.doordash.com/consumer/edit_profile/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Account Details
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.doordash.com/orders/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Order History
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://help.doordash.com/s/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Help
+                  </a>
+                </li>
               </ul>
             </div>
 
             <div>
               <h2 className="font-bold mb-4"> Doing Business</h2>
               <ul className="flex flex-col text-center space-y-2">
-                <a
-                  href="https://www.doordash.com/dasher/signup/?utm_source=dx_signup_text_cx_home"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Become a Dasher
-                </a>
-                <a
-                  href="https://www.doordash.com/merchant/apply/?internal-referrer=footer_v2"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Be a Partner Restaurant
-                </a>
-                <a
-                  href="https://www.doordash.com/drive/discover/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Get Dashers for Deliveries
-                </a>
-                <a
-                  href="https://work.doordash.com/"
-                  className="hover:italic hover:font-semibold"
-                >
-                  Get DoorDash for Work
-                </a>
+                <li>
+                  <a
+                    href="https://www.doordash.com/dasher/signup/?utm_source=dx_signup_text_cx_home"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Become a Dasher
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.doordash.com/merchant/apply/?internal-referrer=footer_v2"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Be a Partner Restaurant
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.doordash.com/drive/discover/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Get Dashers for Deliveries
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://work.doordash.com/"
+                    className="hover:italic hover:font-semibold"
+                  >
+                    Get DoorDash for Work
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
