@@ -4,11 +4,11 @@ import SearchBox from "./SearchBox";
 
 const Header = () => {
   return (
-    <div className="header-container">
+    <header className="header-container">
       <NavBar />
       <IntroText />
       <SearchBox />
-    </div>
+    </header>
   );
 };
 
