@@ -8,7 +8,7 @@ html {
 
 @layer base {
   * {
-    @apply m-0;
+    @apply m-0 subpixel-antialiased;
   }
 
   nav {
@@ -18,14 +18,15 @@ html {
 
 @layer components {
   /* Header */
+
   .header-container {
-    @apply grid place-content-center  bg-[url('./assets/RestaurantFood.jpg')] bg-cover bg-center bg-no-repeat h-screen w-screen mt-24 overflow-x-hidden mb-20;
+    @apply grid place-content-center bg-[url('./assets/RestaurantFood.jpg')] bg-cover bg-center bg-no-repeat h-screen w-screen 2xl:w-[99vw] mt-24 mb-20 overflow-x-hidden;
   }
 
   /* Navbar */
 
   .auths {
-    @apply flex items-center justify-between space-x-4 mr-8;
+    @apply flex items-center justify-between space-x-4 mr-8 lg:text-xl xl:text-2xl 2xl:text-3xl;
   }
 
   .signUp {
@@ -35,7 +36,7 @@ html {
   /* IntroText */
 
   .intro-text {
-    @apply font-sans font-black text-2xl md:text-5xl lg:text-6xl xl:text-8xl text-white text-center relative bg-gradient-to-r from-red-500 to-pink-700 rounded-lg px-4 py-4 mx-8;
+    @apply font-sans font-black text-2xl md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-9xl text-white text-center relative bg-gradient-to-r from-red-500 to-pink-700 rounded-lg px-4 py-4 mx-4  ;
   }
 
   /* SearchBox */
@@ -45,10 +46,11 @@ html {
   }
 
   .saved-address {
-    @apply text-center mt-6 text-white font-black underline italic text-xl md:text-2xl lg:text-3xl xl:text-4xl;
+    @apply text-center mt-6 text-white font-black underline italic text-xl md:text-2xl lg:text-3xl xl:text-4xl decoration-wavy underline-offset-2;
   }
 
   /* Services */
+
   .services-container {
     @apply grid place-content-center gap-4 grid-cols-1 xl:grid-cols-3 2xl:grid-cols-3 my-10;
   }
@@ -57,5 +59,29 @@ html {
 
   .service-container {
     @apply grid grid-cols-2 space-x-4 xl:grid  xl:place-items-center xl:grid-rows-2 xl:grid-cols-1;
+  }
+
+  /* Cards */
+
+  .cards-container {
+    @apply grid grid-rows-2 place-content-center;
+  }
+
+  /* Card */
+
+  .card-container {
+    @apply scale-75 md:scale-90 grid gap-4 md:grid-cols-2 py-10 md:space-x-4;
+  }
+
+  .card-title {
+    @apply font-black text-2xl md:text-3xl lg:text-4xl xl:text-5xl;
+  }
+
+  .card-description {
+    @apply font-semibold my-4 text-left text-xl md:text-2xl lg:text-3xl xl:text-4xl;
+  }
+
+  .card-button {
+    @apply bg-red-600 rounded-full text-lg xl:text-xl 2xl:text-2xl font-bold text-white p-4 justify-start mt-4 hover:rounded-lg hover:scale-110 hover:bg-gradient-to-r from-red-700 via-rose-600 to-pink-600;
   }
 }

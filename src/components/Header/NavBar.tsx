@@ -7,7 +7,7 @@ const NavBar = () => {
         </svg>
       </div>
       <span className="auths">
-        <div className="text-white">
+        <div className="text-white ">
           <a href="https://identity.doordash.com/auth?client_id=1666519390426295040&enable_last_social=false&intl=en-US&layout=consumer_web&prompt=none&redirect_uri=https%3A%2F%2Fwww.doordash.com%2Fpost-login%2F&response_type=code&scope=%2A&state=%2Fhome%2F%7C%7C58814fec-563f-48eb-b140-99ad065aeda7">
             Sign in
           </a>

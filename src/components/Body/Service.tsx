@@ -29,14 +29,19 @@ const Service = ({
 
       <div className="xl:text-center">
         <div>
-          <h2 className="font-black text-xl"> {headerTwo} </h2>
-          <h3 className="font-semibold text-lg">{headerThree}</h3>
+          <h2 className="font-black text-xl lg:text-2xl xl:text-3xl">
+            {" "}
+            {headerTwo}{" "}
+          </h2>
+          <h3 className="font-semibold text-lg lg:text-xl xl:text-2xl">
+            {headerThree}
+          </h3>
         </div>
 
         <button>
           <a href={buttonURL}>
             <span className="flex justify-between">
-              <span className="text-red-500 font-bold text-sm sm:text-base ">
+              <span className="text-red-500 font-bold text-sm md:text-base lg:text-lg xl:text-xl ">
                 {buttonHeadline}{" "}
               </span>
               <>{SVGElement}</>
