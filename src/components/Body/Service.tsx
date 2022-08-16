@@ -6,6 +6,7 @@ interface IServiceProps {
   SVGElement: React.SVGProps<SVGSVGElement>;
   buttonHeadline: string;
   buttonURL: string;
+  scaleClass?: string;
 }
 
 const Service = ({
@@ -16,21 +17,30 @@ const Service = ({
   SVGElement,
   buttonHeadline,
   buttonURL,
+  scaleClass,
 }: IServiceProps) => {
   return (
-    <div className="">
-      <div>
-        <img src={imageURL} alt={alt} />
-      </div>
-      <div>
+    <div className="service-container">
+      <img
+        src={imageURL}
+        alt={alt}
+        className={`place-self-center ${scaleClass} sm:scale-100`}
+      />
+
+      <div className="xl:text-center">
         <div>
-          <h2 className=""> {headerTwo} </h2>
-          <h3 className="">{headerThree}</h3>
+          <h2 className="font-black text-xl"> {headerTwo} </h2>
+          <h3 className="font-semibold text-lg">{headerThree}</h3>
         </div>
+
         <button>
           <a href={buttonURL}>
-            <span>{buttonHeadline}</span>
-            <>{SVGElement}</>
+            <span className="flex justify-between">
+              <span className="text-red-500 font-bold text-sm sm:text-base ">
+                {buttonHeadline}{" "}
+              </span>
+              <>{SVGElement}</>
+            </span>
           </a>
         </button>
       </div>

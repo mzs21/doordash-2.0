@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   * {
     @apply m-0;
@@ -31,21 +35,27 @@
   /* IntroText */
 
   .intro-text {
-    @apply font-sans font-black text-2xl md:text-5xl lg:text-6xl xl:text-8xl text-white text-center relative bg-red-700 rounded-lg px-4 py-4 mx-8;
+    @apply font-sans font-black text-2xl md:text-5xl lg:text-6xl xl:text-8xl text-white text-center relative bg-gradient-to-r from-red-500 to-pink-700 rounded-lg px-4 py-4 mx-8;
   }
 
-  /* Search Box */
+  /* SearchBox */
 
   .search-box {
     @apply font-sans font-black text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-black text-center relative rounded-lg px-4 py-2 mx-8 mt-10;
   }
 
-  .saved-address{
-    @apply text-center mt-6 text-white font-black underline italic text-xl md:text-2xl lg:text-3xl xl:text-4xl
+  .saved-address {
+    @apply text-center mt-6 text-white font-black underline italic text-xl md:text-2xl lg:text-3xl xl:text-4xl;
   }
 
-  /* Body */
-  .body-container {
-    @apply grid place-content-center;
+  /* Services */
+  .services-container {
+    @apply grid place-content-center gap-4 grid-cols-1 xl:grid-cols-3 2xl:grid-cols-3 my-10;
+  }
+
+  /* Service */
+
+  .service-container {
+    @apply grid grid-cols-2 space-x-4 xl:grid  xl:place-items-center xl:grid-rows-2 xl:grid-cols-1;
   }
 }

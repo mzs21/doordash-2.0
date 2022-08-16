@@ -47,7 +47,7 @@ const ArrowIcon = (
 
 const Services = () => {
   return (
-    <div className="">
+    <div className="services-container">
       <Service
         imageURL={ScootSVG}
         alt={ScootSVGTitle}
@@ -56,6 +56,7 @@ const Services = () => {
         buttonHeadline={ScootSVGButtonHeadline}
         buttonURL={ScootButtonURL}
         SVGElement={ArrowIcon}
+        scaleClass="scale-75 "
       />
 
       <Service
@@ -66,6 +67,7 @@ const Services = () => {
         buttonHeadline={StoreFrontSVGButtonHeadline}
         buttonURL={StoreFrontButtonURL}
         SVGElement={ArrowIcon}
+        scaleClass="scale-75 "
       />
 
       <Service
@@ -76,6 +78,7 @@ const Services = () => {
         buttonHeadline={PhoneSVGButtonHeadline}
         buttonURL={PhoneButtonURL}
         SVGElement={ArrowIcon}
+        scaleClass="scale-125 md:scale-150"
       />
     </div>
   );
