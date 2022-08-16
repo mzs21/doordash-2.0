@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/doordash-2.0/static/css/main.e7926b58.css",
+    "main.js": "/doordash-2.0/static/js/main.d1f24a93.js",
+    "static/js/787.ed77fb26.chunk.js": "/doordash-2.0/static/js/787.ed77fb26.chunk.js",
+    "static/media/RestaurantFood.jpg": "/doordash-2.0/static/media/RestaurantFood.f648b948c5650f046038.jpg",
+    "index.html": "/doordash-2.0/index.html",
+    "main.e7926b58.css.map": "/doordash-2.0/static/css/main.e7926b58.css.map",
+    "main.d1f24a93.js.map": "/doordash-2.0/static/js/main.d1f24a93.js.map",
+    "787.ed77fb26.chunk.js.map": "/doordash-2.0/static/js/787.ed77fb26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7926b58.css",
+    "static/js/main.d1f24a93.js"
+  ]
+}
