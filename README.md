@@ -2,9 +2,21 @@
 
 [**DoorDash**](https://www.doordash.com/) is a YC startup based in San Francisco, CA, USA.
 
-This website is a **_partial clone_** and **_redesign_** solely for the purpose of **Front-End Specialization Test** by [**Slingshotahead**](https://slingshotahead.com/)
+This website is a **_partial clone_** and **_redesigned_** solely for the purpose of the **Front-End Specialization Test** by [**Slingshotahead**](https://slingshotahead.com/).
+
 
 * Only the landing page has been **_partially clone_** and **_redesigned_** 
+
+
+# Hosting
+
+You can visit DoordDash 2.0 at - [**https://mzs21.github.io/doordash-2.0/**](https://mzs21.github.io/doordash-2.0/ )
+
+# Demo
+
+Mobile version - [**YouTube Link**](https://youtube.com/shorts/xcT-IWMWcVY)
+
+Desktop version - [**YouTube Link**](https://youtu.be/aGEwlKnOGec)
 
 # Tech Stack
 
@@ -18,6 +30,7 @@ This website is a **_partial clone_** and **_redesign_** solely for the purpose 
 
 Picture by **Tim Toomey** - [**SOURCE**](https://unsplash.com/photos/STqHLqMne3k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
+* Other pictures' were taken from [**DoorDash**](https://www.doordash.com/)'s website.
 # Getting Started with this repository
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
